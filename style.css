@@ -1,0 +1,30 @@
+#container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header{
+    height: 50px;
+}
+#center{
+    height: 500px;
+}
+#footer{
+    height: 200px;
+}
+.footertop{
+    float: left;
+    padding: 1%;
+    height: 80px;
+    width: 31.33%;
+}
+.footerbottom{
+    float: left;
+    padding: 1%;
+    height: 80px;
+    width: 48%;
+}
+@media only screen and (max-width:620px){
+    .footertop, .footerbottom{width: 100%;
+    }
+}

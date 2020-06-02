@@ -1,0 +1,35 @@
+#container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header{
+    height: 50px;
+    background-color: burlywood;
+}
+#center{
+    height: 500px;
+    background-color: lavender;
+}
+#footer{
+    height: 200px;
+    background-color: #404040;
+    color: white;
+}
+.footertop{
+    float: left;
+    padding: 1%;
+    height: 80px;
+    width: 31.33333333333%;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+.footerbottom{
+    float: left;
+    padding: 1%;
+    height: 80px;
+    width: 48%;
+}
+@media only screen and (max-width:620px){
+    .footertop, .footerbottom{width: 100%;
+    }
+}

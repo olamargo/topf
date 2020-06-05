@@ -1,21 +1,65 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-<meta charset="utf-8"/>
-<title>Zadanie</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <head>
+    <meta charset="utf-8"/>
+        <title>Zadanie</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="style.css" type="text/css"/>
-</head>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+    </head>
 
 <body>
-    <div id="container">
-        <div id="header">
 
-        </div>
+        <nav id="header">
+            <div class="img-wrapper"><img src="logo.png"/></div>
+            
+
+                <ul class="menu">
+                    <li class="option"><a href="#" class="custom-underline">home</a></li>
+                    <li class="option"><a href="#" class="custom-underline">dlaczego topUsługa?</a></li>
+                    <li class="option"><a href="#" class="custom-underline">szukaj z mapą</a></li>
+                    <li class="option"><a href="#"class="custom-underline" >pytania i odpowiedzi</a></li>
+                    <li class="option"><a href="#" class="custom-underline">certyfikat</a></li>
+                </ul>
+           
+            <div class="mobie-wrapper-right">
+            <div class="navigation-mobile">
+                <div id="menuToggle" class="menuToggle">
+                    <button>
+                        <div id="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span style="margin-bottom: 0px;"></span>
+                        </div>
+                    </button>
+                    <div id="mobile_menu" class="menuMobile">
+                        <ul>
+                            <a href="#"><li>Home</li></a>
+                            <a href="#"><li>dlaczego topUsługa?</li></a>
+                            <a href="#"><li>szukaj z mapą</li></a>
+                            <a href="#"><li>pytania i odpowiedzi</li></a>
+                            <a href="#"><li>certyfikat</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+                <a href="#" class="btn-user"><img src="user-regular.svg" id="user"/>dołącz teraz</a>
+            </div>
+        </nav>
 
         <div id="center">
-
+            <div id="mainContent">
+                <div class="introreadmore">
+                    <h3>Wprowadzenie</h3><br/>
+                    <p>Rozwój innowacyjnej technologii Yeketaz powstał w 2009 roku. YEKETAZ jest profesjonalną firmą pod względem hosta-domeny, tworzenia stron internetowych, optymalizacji SEO, płatności za kliknięcie, marketingu mobilnego, projektowania graficznego, konserwacji witryn internetowych oraz usług komputerowych.
+                    Dzięki wieloletniemu doświadczeniu znani jesteśmy z dostarczania spersonalizowanych i dostosowanych do potrzeb klienta usług związanych z projektowaniem i tworzeniem stron internetowych. Zobowiązani jesteśmy do dostarczania opłacalnych oraz skalowanych rozwiązań dla naszych klientów na całym świecie.<span id="dots"></span><span id="more"> Jesteśmy wspierani przez doświadczony i utalentowany zespół pracowników.
+                    Jak kształtować Twój biznes we właściwym kierunku? Mamy wspaniałe, innowacyjne i kreatywne pomysły, które pomogą Ci osiągnąć ogromne zyski w Twojej firmie. YEKETAZ to niepowtarzalna mieszanka kreatywnych umysłów, posiadających doskonałą wiedzę techniczną, aby pomóc Twojej firmie wspiąć się na wyższy poziom.
+                    </span></p>
+                </div>
+                <button class="btn-more-less" onclick="myFunction()" id="myBtn">Więcej...</button>
+            </div>
         </div>
 
         <div id="footer">
@@ -27,7 +71,7 @@
                 <div class="footerbottom"></div><div class="footerbottom"></div>
             </div>
         </div>
-    </div>
 
+        <script type="text/javascript" src="main.js"></script>
 </body>
 </html>

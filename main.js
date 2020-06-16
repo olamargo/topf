@@ -25,3 +25,22 @@ var btnText = document.getElementById("myBtn");
         moreText.style.display = "inline";
     }
 };
+
+var form = document.getElementById("form")
+
+form.addEventListener("change", function(){
+
+    for(var i=0; i < form.length; i++)
+    {
+        if(form[i].type == "radio")
+        {
+            form[i].labels[0].classList.remove("active");
+
+            if(form[i].checked == true)
+            {
+                form[i].labels[0].classList.add("active");
+
+            }
+        }
+    }
+});
